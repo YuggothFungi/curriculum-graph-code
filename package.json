@@ -1,0 +1,14 @@
+{
+  "name": "graph-visualization",
+  "version": "1.0.0",
+  "description": "A simple graph visualization using D3.js and Flask",
+  "main": "graph.js",
+  "type": "module",
+  "scripts": {
+    "start": "python run.py",
+    "test": "pytest"
+  },
+  "dependencies": {
+    "d3": "^7.9.0"
+  }
+}

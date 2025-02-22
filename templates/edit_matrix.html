@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Редактирование матрицы смежности</title>
+    <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+    <h1>Редактирование матрицы смежности</h1>
+    <input type="file" id="fileInput" accept=".json" title="Выберите файл" width="10">
+    <br>
+    <button id="loadMatrix">Загрузить матрицу</button>
+    <table id="adjacencyMatrix">
+        <thead>
+            <tr>
+                <th>Темы</th>
+            </tr>
+        </thead>
+        <tbody>
+            <!-- Динамически заполняем таблицу -->
+        </tbody>
+    </table>
+    <button id="addTopic">Добавить тему</button>
+    <button id="saveMatrix">Сохранить матрицу</button>
+
+    <script src="/static/edit_matrix.js"></script>
+</body>
+</html> 
